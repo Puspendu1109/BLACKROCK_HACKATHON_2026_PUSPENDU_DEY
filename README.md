@@ -90,7 +90,7 @@ The application has been fully containerized using Docker, strictly adhering to 
 Run the following command in the root directory to build the Linux-based image:
 
 ```bash
-docker build -t blk-hacking-ind-{name-lastname} .
+docker build -t blk-hacking-ind-PUSPENDU-DEY .
 
 ```
 
@@ -98,7 +98,7 @@ docker build -t blk-hacking-ind-{name-lastname} .
 Map the required port (`5477`) and start the application in detached mode:
 
 ```bash
-docker run -d -p 5477:5477 blk-hacking-ind-{name-lastname}
+docker run -d -p 5477:5477 blk-hacking-ind-PUSPENDU-DEY
 
 ```
 
