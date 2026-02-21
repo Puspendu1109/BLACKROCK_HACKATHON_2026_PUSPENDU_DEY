@@ -4,8 +4,6 @@ This repository contains the business logic and REST API for the BlackRock Chall
 
 The application has been fully containerized using Docker, strictly adhering to the hackathon's infrastructure requirements.
 
-## 📂 Project Structure
-
 
 ## 📂 Project Structure
 
