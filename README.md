@@ -14,7 +14,7 @@ The application has been fully containerized using Docker, strictly adhering to 
 ├── compose.yaml           # Docker Compose configuration for API and testing
 ├── requirements.txt       # Python dependencies
 └── test/
-    └── test_app.py        # Bonus: Unit and integration tests (pytest)
+    └── test_app.py        # Testing: Unit and integration tests (pytest)
 ```
 ## Deatiled explanation of app.py
 
@@ -84,7 +84,7 @@ The application has been fully containerized using Docker, strictly adhering to 
 
 ## 🛠️ Build and Run Instructions
 
-### Option 1: Using Standard Docker Commands (As Requested)
+### Option 1: Using Standard Docker Commands (As mentioned in coding challange)
 
 **1. Build the image:**
 Run the following command in the root directory to build the Linux-based image:
@@ -117,7 +117,7 @@ The application will be accessible at `http://localhost:5477`.
 
 ---
 
-## 🧪 Running the Tests (Bonus Evaluation)
+## 🧪 Running the Tests 
 
 Comprehensive unit and integration tests have been provided in the `test/test_app.py` file to validate mathematical precision (taxes, compound interest, remanent calculations) and endpoint logic.
 
