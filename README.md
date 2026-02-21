@@ -7,7 +7,7 @@ The application has been fully containerized using Docker, strictly adhering to 
 ## 📂 Project Structure
 
 
-
+'''
 ├── app.py                 # Main FastAPI application and core business logic
 ├── Dockerfile             # Container definition (Exposes port 5477)
 ├── compose.yaml           # Docker Compose configuration for API and testing
