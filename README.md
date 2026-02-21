@@ -15,7 +15,7 @@ The application has been fully containerized using Docker, strictly adhering to 
 ├── requirements.txt       # Python dependencies
 └── test/
     └── test_app.py        # Bonus: Unit and integration tests (pytest)
-
+```
 ## Deatiled explanation of app.py
 
 **1. Imports & Initializations:**
