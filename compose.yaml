@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  api:
+    image: blk-hacking-ind-PUSPENDU-DEY
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blackrock_api
+    ports:
+      - "5477:5477"
+    volumes:
+      - .:/app
+    # Overriding the command to enable reload for development (optional, but helpful)
+    command: uvicorn app:app --host 0.0.0.0 --port 5477 --reload
+
+  test:
+    image: blk-hacking-ind-PUSPENDU-DEY
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blackrock_tests
+    volumes:
+      - .:/app
+    # The exact test execution command requested
+    command: pytest test/test_app.py -v
